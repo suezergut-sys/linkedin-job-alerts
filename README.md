@@ -3,19 +3,18 @@
 Static pages prepared for GitHub Pages and Google OAuth Branding. This directory
 contains public-safe website source only, not the OpenClaw skill or runtime.
 
-Status: local draft; no public repository, deployment or Google ownership
-verification has been created by this preparation step.
+Status: published on GitHub Pages. Google ownership verification and OAuth
+production setup are tracked separately and must be confirmed in Google.
 
-## Proposed deployment
+## Deployment
 
-- Account: the authenticated GitHub account verified during preparation.
-- Proposed new repository: `linkedin-job-alerts` (public, required for GitHub Free Pages).
+- Repository: [suezergut-sys/linkedin-job-alerts](https://github.com/suezergut-sys/linkedin-job-alerts).
 - Pages source: `main`, root directory; `.nojekyll` disables Jekyll processing.
-- Homepage: repository's GitHub Pages URL, once returned by GitHub.
+- Homepage: [OpenClaw LinkedIn Job Alerts](https://suezergut-sys.github.io/linkedin-job-alerts/).
 - Privacy: `privacy.html` under that URL.
 - Terms: `terms.html` under that URL.
 
-Confirm publication of this exact content before creating a public repository.
+The owner approved public publication of these pages on 25 October 2026.
 Only commit the explicit files in this directory. Never copy the infrastructure
 repository, parent workspace, private drafts, Gmail samples or runtime data.
 
@@ -32,8 +31,9 @@ analytics or external embeds. External policy links are normal navigation links.
 
 1. Confirm all three deployed HTTPS pages are public and reachable.
 2. Add the exact Pages URL as a URL-prefix property in Google Search Console.
-3. Publish the HTML verification file or meta tag supplied for that property;
-   leave it in place after verification. Do not invent a verification token.
+3. The homepage includes the HTML verification meta tag supplied by Google for
+   that property. Keep it in place after verification; do not replace it with a
+   guessed token or the token belonging to another account/property.
 4. Use the Google-accepted owner-controlled domain in Authorized domains and set
    the three exact page URLs in OAuth Branding. A platform subdomain's acceptance
    must be checked in Google, not assumed from a working website.
