@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SheldonClawDRIVE: private Google Drive synchronization and backup.">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>SheldonClawDRIVE</title><link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="header"><a class="brand" href="./">SheldonClawDRIVE</a><nav class="nav" aria-label="Main"><a href="./" aria-current="page">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<main id="main">
+<section class="hero"><p class="eyebrow">Private synchronization tool</p><h1>SheldonClawDRIVE</h1><p class="intro">Connects an authorized Google Drive account to the operator's private OpenClaw environment for Obsidian synchronization and independent backups.</p><span class="pill"><span class="dot" aria-hidden="true"></span>Owner-controlled Google Drive access</span></section>
+<section class="split"><div><h2>What it does</h2><p>The application uses rclone to synchronize a configured Obsidian folder between Google Drive and the operator's private server. It also uploads and verifies independent backup archives in designated backup folders.</p><p>Synchronization runs on a schedule. Changes can propagate in either direction, including authorized modifications and deletions; version backups and conflict handling preserve displaced copies where configured.</p></div><div><h2>Why Google Drive access is requested</h2><p>The OAuth scope <code>https://www.googleapis.com/auth/drive</code> permits viewing, creating, changing and deleting Google Drive files. This broad permission is required to synchronize existing files and folders that were not created by the application.</p><p>Configured folder paths limit normal operation; they do not narrow the underlying Google permission. Access can be revoked in Google Account settings.</p></div></section>
+<aside class="note"><p><strong>Information pages only.</strong> This website has no sign-in, vault browser or administration interface. It does not expose notes, file listings, credentials or backup archives.</p></aside>
+<section class="split"><div><h2>Private use</h2><p>This application is operated for its owner and explicitly authorized personal use. It is not a public storage service and does not offer public registration.</p><p>Google authorization does not make private files or the server publicly accessible.</p></div><div><h2>Privacy and support</h2><p>The <a href="privacy.html">Privacy Policy</a> describes data access, storage and revocation. The <a href="terms.html">Terms of Use</a> explain the scope and limits of synchronization.</p><p>Authorized users may contact the operator through their existing private channel or the support email displayed on Google's consent screen.</p></div></section>
+</main>
+<footer class="footer"><span>SheldonClawDRIVE · Personal use</span><nav aria-label="Legal"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav><span>Updated 26 October 2026</span></footer>
+</div>
+</body>
+</html>
