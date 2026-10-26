@@ -3,6 +3,14 @@
 Static pages prepared for GitHub Pages and Google OAuth Branding. This directory
 contains public-safe website source only, not the OpenClaw skill or runtime.
 
+The separate `sheldonclaw-drive/` section contains the owner-authorized public
+information pages for SheldonClawDRIVE (26 October 2026): overview, Privacy Policy
+and Terms of Use for private Google Drive vault synchronization and backups.
+It shares only static CSS and hosting with the job-alert pages. Credentials,
+source records, vault content and operational configuration must never be copied here.
+OAuth publication and token refresh are separate operations verified in Google
+Cloud and on the VPS; publishing these pages does not itself change access.
+
 Status: published on GitHub Pages. Google ownership verification and OAuth
 production setup are tracked separately and must be confirmed in Google.
 

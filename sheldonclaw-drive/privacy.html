@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy Policy · SheldonClawDRIVE: private Google Drive synchronization and backup.">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Privacy Policy · SheldonClawDRIVE</title><link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="header"><a class="brand" href="./">SheldonClawDRIVE</a><nav class="nav" aria-label="Main"><a href="./">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<main id="main" class="legal">
+<p class="eyebrow">Data and access</p><h1>Privacy Policy</h1><p class="updated">SheldonClawDRIVE · Last updated 26 October 2026</p><p class="lead">A private Google Drive synchronization and backup integration for an owner-operated OpenClaw environment.</p>
+<h2>Purpose and authorization</h2><p>The application accesses only Google accounts authorized by their owners. It requests <code>https://www.googleapis.com/auth/drive</code> to synchronize an existing Obsidian folder and manage independent backups. This permission technically allows viewing, creating, changing and deleting all Drive files, except application-specific data outside the scope. The configured operations target designated vault and backup folders.</p>
+<h2>Data accessed and transferred</h2><p>rclone reads file and folder names, identifiers, sizes, modification times, checksums and file contents needed for synchronization and backup verification. Files in the configured folders may include private notes, attachments and other information chosen by the owner. No actual user files or personal records are published on this website.</p><p>File contents and metadata are transferred between Google Drive and the operator's private server. Independent backups may also be retained on the operator's local computer and Google Drive. Synchronization is not a substitute for an independent backup.</p>
+<h2>Processing and other services</h2><p>Synchronization and checksum verification are performed by software on the operator's server. The Drive transport itself does not send file contents or OAuth credentials to an AI model. Other separately authorized OpenClaw workflows may read or process the private vault, including through configured model providers, and may communicate with the owner through Telegram. This notice does not grant permission for those separate actions.</p><p>The operator does not sell Google user data, use it for advertising, or use it to train general-purpose AI models. Information obtained through Google APIs is used for the authorized functionality and must comply with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. Any separately authorized processing must use compatible provider terms and settings.</p>
+<h2>Storage and protection</h2><p>OAuth credentials are stored in restricted private files outside public source control and outside the working Obsidian vault. Private server storage holds synchronized files, operational state, logs and version backups. Independent backup archives may contain private records and configuration and are not placed in public repositories.</p>
+<h2>Retention and deletion</h2><p>There is no automatic retention deadline for the owner's source records or independent backups. Removing a working file can propagate to the other synchronized location; configured version backups may retain displaced copies. Deleting a working file or revoking OAuth access does not automatically remove copies from backups or operational records.</p><p>The owner can stop synchronization, remove application-held credentials and arrange deletion of selected records and retained backup copies. Deletion is not claimed until it has been confirmed. Authorized users can request review through their existing private contact with the operator.</p>
+<h2>Control and revocation</h2><p>Access can be revoked through <a href="https://myaccount.google.com/connections">Google Account's third-party connections page</a>. Revocation prevents future authorized Drive access; it does not by itself delete already synchronized files, logs or backups. Google may also invalidate authorization under its own policies.</p>
+<h2>This website</h2><p>These pages have no application JavaScript, analytics tags, advertising, forms or page-set cookies. GitHub Pages hosts the site and may process technical request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. Visiting this site does not connect a Google Drive account.</p>
+<h2>Contact and changes</h2><p>Use the support email displayed on Google's consent screen or your existing private contact with the operator. Material changes to access or data use require updated notices and any additional authorization required by the account owner or Google.</p>
+</main>
+<footer class="footer"><span>SheldonClawDRIVE · Personal use</span><nav aria-label="Legal"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav><span>Updated 26 October 2026</span></footer>
+</div>
+</body>
+</html>
+
